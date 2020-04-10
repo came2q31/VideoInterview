@@ -1,0 +1,66 @@
+2018-12-05 15:18:39 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-12-05 15:18:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-12-05 15:18:43 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-12-05 15:18:46 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-12-05 15:18:46 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//172.17.200.75:1521/MBFPDB01]
+2018-12-05 15:18:46 INFO  pooling:138 - HHH10001001: Connection properties: {user=SIT_MCP, password=****, autocommit=false, release_mode=after_transaction}
+2018-12-05 15:18:46 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-12-05 15:18:46 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2018-12-05 15:18:47 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2018-12-05 15:18:47 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@7b27e8f4
+2018-12-05 15:18:47 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@7b27e8f4
+2018-12-05 15:18:47 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@68ac9ec5
+2018-12-05 15:18:47 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@68ac9ec5
+2018-12-05 15:18:49 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2018-12-05 15:18:49 WARN  RootClass:287 - HHH000038: Composite-id class does not override equals(): com.mcredit.data.warehouse.entity.WhMapDocCode
+2018-12-05 15:18:49 WARN  RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.mcredit.data.warehouse.entity.WhMapDocCode
+2018-12-05 15:18:49 WARN  RootClass:287 - HHH000038: Composite-id class does not override equals(): com.mcredit.data.mobile.entity.ApprovalReport
+2018-12-05 15:18:49 WARN  RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.mcredit.data.mobile.entity.ApprovalReport
+2018-12-05 15:18:49 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-12-05 15:18:49 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@14447be after already scoped org.hibernate.internal.SessionFactoryImpl@14447be
+2018-12-05 15:18:51 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-12-05 15:20:48 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    21900 nanoseconds spent acquiring 1 JDBC connections;
+    57015 nanoseconds spent releasing 1 JDBC connections;
+    156570779 nanoseconds spent preparing 4 JDBC statements;
+    76176977 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    55527447 nanoseconds spent executing 2 flushes (flushing a total of 33870 entities and 0 collections);
+    95313918 nanoseconds spent executing 4 partial-flushes (flushing a total of 33870 entities and 33870 collections)
+}
+2018-12-05 15:58:06 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-12-05 15:58:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-12-05 15:58:08 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-12-05 15:58:10 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-12-05 15:58:11 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//172.17.200.75:1521/MBFPDB01]
+2018-12-05 15:58:11 INFO  pooling:138 - HHH10001001: Connection properties: {user=SIT_MCP, password=****, autocommit=false, release_mode=after_transaction}
+2018-12-05 15:58:11 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-12-05 15:58:11 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2018-12-05 15:58:12 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2018-12-05 15:58:12 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@30f74e79
+2018-12-05 15:58:12 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@30f74e79
+2018-12-05 15:58:12 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@5ed4bc
+2018-12-05 15:58:12 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@5ed4bc
+2018-12-05 15:58:13 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2018-12-05 15:58:13 WARN  RootClass:287 - HHH000038: Composite-id class does not override equals(): com.mcredit.data.warehouse.entity.WhMapDocCode
+2018-12-05 15:58:13 WARN  RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.mcredit.data.warehouse.entity.WhMapDocCode
+2018-12-05 15:58:13 WARN  RootClass:287 - HHH000038: Composite-id class does not override equals(): com.mcredit.data.mobile.entity.ApprovalReport
+2018-12-05 15:58:13 WARN  RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.mcredit.data.mobile.entity.ApprovalReport
+2018-12-05 15:58:13 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-12-05 15:58:14 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@5eb5da12 after already scoped org.hibernate.internal.SessionFactoryImpl@5eb5da12
+2018-12-05 15:58:18 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-12-05 15:59:42 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    27941 nanoseconds spent acquiring 1 JDBC connections;
+    86465 nanoseconds spent releasing 1 JDBC connections;
+    168335827 nanoseconds spent preparing 4 JDBC statements;
+    92451099 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    32666046 nanoseconds spent executing 2 flushes (flushing a total of 33870 entities and 0 collections);
+    128655080 nanoseconds spent executing 4 partial-flushes (flushing a total of 33870 entities and 33870 collections)
+}

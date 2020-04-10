@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+	    <meta charset="UTF-8">
+	    <title></title>
+	    <script src="libs/jquery-2.1.1.min.js"></script>
+	    <script src="libs/strophe/strophe.js"></script>
+	    <script src="libs/strophe/strophe.disco.min.js?v=1"></script>
+	    <!-- <script src="https://meet.jit.si/libs/lib-jitsi-meet.min.js"></script> -->
+	    <script src="libs/lib-jitsi-meet.min.js"></script>
+	    <script src="example.js" ></script>
+	</head>
+	<body>
+		<!-- &nbsp;&nbsp;<a href="#" onclick="unload()">Unload</a>
+	    &nbsp;&nbsp;<a href="#" onclick="switchVideo()">switchVideo</a>
+	    <div id="audioOutputSelectWrapper" style="display: none;">
+	        Change audio output device
+	        <select id="audioOutputSelect" onchange="changeAudioOutput(this)"></select>
+	    </div> -->
+		<table>
+			<tr>
+				<td align="top" id="mainCamera"></td>
+				<td id="remoteCamera"></td>
+			</tr>
+	        <tr>
+	            <td colspan="2">
+	                <button id="btnStart" onclick="startRecord();">Start record</button>
+	                &nbsp;&nbsp;&nbsp;&nbsp;<button id="btnStop" onclick="stopRecord();" disabled="">Stop record</button>
+	            </td>
+	        </tr>
+		</table>
+	    <!-- <video id="localVideo" autoplay="true"></video> -->
+	    <!--<audio id="localAudio" autoplay="true" muted="true"></audio>-->
+	</body>
+</html>

@@ -1,0 +1,1070 @@
+2019-08-19 11:01:38 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:01:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:01:39 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:01:39 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:01:39 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:01:39 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:01:39 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:01:39 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:01:39 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:01:40 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:01:40 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@7cf6a5f9 after already scoped org.hibernate.internal.SessionFactoryImpl@7cf6a5f9
+2019-08-19 11:01:40 WARN  SqlExceptionHelper:129 - SQL Error: 1146, SQLState: 42S02
+2019-08-19 11:01:40 ERROR SqlExceptionHelper:131 - Table 'esl.users' doesn't exist
+2019-08-19 11:01:40 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    504100 nanoseconds spent acquiring 1 JDBC connections;
+    1042600 nanoseconds spent releasing 1 JDBC connections;
+    9560200 nanoseconds spent preparing 1 JDBC statements;
+    54024800 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    45500 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:21:21 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:21:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:21:22 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:21:22 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:21:22 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:21:22 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:21:22 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:21:22 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:21:22 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:21:23 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:21:23 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@7cf6a5f9 after already scoped org.hibernate.internal.SessionFactoryImpl@7cf6a5f9
+2019-08-19 11:21:23 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    446000 nanoseconds spent acquiring 1 JDBC connections;
+    320600 nanoseconds spent releasing 1 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:22:00 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:22:00 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:22:01 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:22:01 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:22:01 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:22:01 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:22:01 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:22:01 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:22:01 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:22:02 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:22:02 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:23:16 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:23:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:23:16 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:23:16 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:23:16 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:23:16 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:23:16 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:23:16 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:23:17 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:23:17 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:23:17 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:23:17 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:23:17 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:23:17 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:23:17 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:24:31 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:24:31 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:24:31 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:24:31 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:24:32 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:24:32 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:24:32 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:24:32 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:24:32 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:24:32 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:24:32 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:24:32 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:24:32 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:24:32 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:24:32 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:24:33 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:24:33 WARN  SqlExceptionHelper:129 - SQL Error: 933, SQLState: 42000
+2019-08-19 11:24:33 ERROR SqlExceptionHelper:131 - ORA-00933: SQL command not properly ended
+
+2019-08-19 11:24:33 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    20700 nanoseconds spent acquiring 1 JDBC connections;
+    25400 nanoseconds spent releasing 1 JDBC connections;
+    36849600 nanoseconds spent preparing 1 JDBC statements;
+    3479500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    61800 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:24:55 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:24:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:24:55 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:24:55 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:24:55 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:24:55 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:24:55 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:24:55 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:24:56 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:24:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:24:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:24:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:24:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:24:56 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:24:56 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:24:56 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:24:57 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    20100 nanoseconds spent acquiring 1 JDBC connections;
+    23100 nanoseconds spent releasing 1 JDBC connections;
+    36249700 nanoseconds spent preparing 1 JDBC statements;
+    4652900 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    4949600 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    43500 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:25:38 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:25:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:25:38 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:25:38 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:25:38 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:25:38 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:25:38 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:25:38 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:25:39 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:25:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:25:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:25:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:25:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:25:39 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:25:39 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:25:40 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:25:40 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    23700 nanoseconds spent acquiring 1 JDBC connections;
+    34100 nanoseconds spent releasing 1 JDBC connections;
+    37509700 nanoseconds spent preparing 1 JDBC statements;
+    3243300 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    42300 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:26:27 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:26:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:26:28 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:26:28 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:26:28 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:26:28 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:26:28 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:26:28 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:26:28 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:26:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:26:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:26:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:26:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:26:29 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:26:29 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:26:29 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:26:29 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    18500 nanoseconds spent acquiring 1 JDBC connections;
+    28400 nanoseconds spent releasing 1 JDBC connections;
+    38714400 nanoseconds spent preparing 1 JDBC statements;
+    3403700 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    44000 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:26:47 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:26:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:26:47 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:26:47 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:26:47 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:26:47 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:26:47 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:26:47 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:26:48 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:26:48 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:26:48 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:26:48 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:26:48 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:26:48 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:26:48 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:26:48 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:26:49 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    23300 nanoseconds spent acquiring 1 JDBC connections;
+    22500 nanoseconds spent releasing 1 JDBC connections;
+    37545500 nanoseconds spent preparing 1 JDBC statements;
+    2877100 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5077700 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    46200 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:31:55 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:31:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:31:55 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:31:55 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:31:56 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:31:56 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:31:56 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:31:56 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:31:56 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:31:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:31:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:31:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:31:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:31:56 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:31:56 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:31:57 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:31:57 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    39000 nanoseconds spent acquiring 1 JDBC connections;
+    29600 nanoseconds spent releasing 1 JDBC connections;
+    37908500 nanoseconds spent preparing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    2540200 nanoseconds spent executing 1 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    55197900 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:32:34 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:32:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:32:34 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:32:35 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:32:35 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:32:35 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:32:35 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:32:35 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:32:35 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:32:35 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:32:35 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:32:35 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:32:35 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:32:35 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:32:36 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:32:36 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:32:36 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    18700 nanoseconds spent acquiring 1 JDBC connections;
+    49900 nanoseconds spent releasing 1 JDBC connections;
+    38072100 nanoseconds spent preparing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    2087900 nanoseconds spent executing 1 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    56745700 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:33:22 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:33:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:33:22 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:33:22 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:33:22 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:33:22 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:33:22 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:33:22 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:33:23 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:33:23 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:33:23 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:33:23 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:33:23 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:33:23 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:33:23 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:33:23 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:33:24 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    20000 nanoseconds spent acquiring 1 JDBC connections;
+    25500 nanoseconds spent releasing 1 JDBC connections;
+    37850300 nanoseconds spent preparing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    2908400 nanoseconds spent executing 1 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    62234500 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:44:15 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:44:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:44:15 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:44:16 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:44:16 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:44:16 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:44:16 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:44:16 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:44:16 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:44:16 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:44:16 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@207b8649 after already scoped org.hibernate.internal.SessionFactoryImpl@207b8649
+2019-08-19 11:44:17 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:44:17 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    571500 nanoseconds spent acquiring 1 JDBC connections;
+    362800 nanoseconds spent releasing 1 JDBC connections;
+    12107900 nanoseconds spent preparing 1 JDBC statements;
+    1539700 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5827700 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    52100 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:45:08 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:45:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:45:08 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:45:09 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:45:09 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:45:09 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:45:09 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:45:09 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:45:09 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:45:09 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:45:09 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@207b8649 after already scoped org.hibernate.internal.SessionFactoryImpl@207b8649
+2019-08-19 11:45:10 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:45:10 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    557600 nanoseconds spent acquiring 1 JDBC connections;
+    247200 nanoseconds spent releasing 1 JDBC connections;
+    9696700 nanoseconds spent preparing 1 JDBC statements;
+    943900 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    4186600 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    40300 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:45:21 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:45:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:45:21 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:45:21 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:45:21 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:45:21 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:45:21 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:45:21 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:45:22 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:45:22 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:45:22 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@207b8649 after already scoped org.hibernate.internal.SessionFactoryImpl@207b8649
+2019-08-19 11:45:22 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:45:23 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    545600 nanoseconds spent acquiring 1 JDBC connections;
+    242800 nanoseconds spent releasing 1 JDBC connections;
+    10500600 nanoseconds spent preparing 1 JDBC statements;
+    1252900 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    6679300 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    48100 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:46:24 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:46:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:46:25 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:46:25 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:46:25 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:46:25 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:46:25 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:46:25 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:46:25 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:46:26 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:46:26 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@207b8649 after already scoped org.hibernate.internal.SessionFactoryImpl@207b8649
+2019-08-19 11:46:26 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:46:26 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    476900 nanoseconds spent acquiring 1 JDBC connections;
+    279500 nanoseconds spent releasing 1 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:47:09 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:47:09 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:47:09 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:47:09 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:47:09 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:47:09 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:47:09 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:47:09 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:47:10 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:47:10 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:47:10 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@207b8649 after already scoped org.hibernate.internal.SessionFactoryImpl@207b8649
+2019-08-19 11:47:10 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:47:10 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    664000 nanoseconds spent acquiring 1 JDBC connections;
+    607300 nanoseconds spent releasing 1 JDBC connections;
+    9773400 nanoseconds spent preparing 2 JDBC statements;
+    2165600 nanoseconds spent executing 1 JDBC statements;
+    8810500 nanoseconds spent executing 1 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    27108300 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:47:27 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:47:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:47:27 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:47:28 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:47:28 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:47:28 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:47:28 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:47:28 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:47:28 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:47:28 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:47:28 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@207b8649 after already scoped org.hibernate.internal.SessionFactoryImpl@207b8649
+2019-08-19 11:47:29 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:47:29 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-08-19 11:47:29 ERROR BatchingBatch:127 - HHH000315: Exception executing batch [java.sql.BatchUpdateException: Duplicate entry 'anhdv2' for key 'LOGIN_ID_UNIQUE'], SQL: insert into USERS (CREATED_DATE, LOGIN_ID, STATUS, USR_FULL_NAME, id) values (?, ?, ?, ?, ?)
+2019-08-19 11:47:29 WARN  SqlExceptionHelper:129 - SQL Error: 1062, SQLState: 23000
+2019-08-19 11:47:29 ERROR SqlExceptionHelper:131 - Duplicate entry 'anhdv2' for key 'LOGIN_ID_UNIQUE'
+2019-08-19 11:47:29 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute batch]
+2019-08-19 11:47:29 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    624700 nanoseconds spent acquiring 1 JDBC connections;
+    508600 nanoseconds spent releasing 1 JDBC connections;
+    10492800 nanoseconds spent preparing 2 JDBC statements;
+    1215300 nanoseconds spent executing 1 JDBC statements;
+    151303100 nanoseconds spent executing 1 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    167368500 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:47:39 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:47:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:47:39 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:47:39 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:47:40 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:47:40 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:47:40 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:47:40 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:47:40 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:47:40 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:47:40 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@207b8649 after already scoped org.hibernate.internal.SessionFactoryImpl@207b8649
+2019-08-19 11:47:41 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:47:41 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    495100 nanoseconds spent acquiring 1 JDBC connections;
+    1462400 nanoseconds spent releasing 1 JDBC connections;
+    10935800 nanoseconds spent preparing 2 JDBC statements;
+    2522200 nanoseconds spent executing 1 JDBC statements;
+    16194700 nanoseconds spent executing 1 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    31816400 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:47:54 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:47:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:47:54 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:47:54 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:47:54 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:47:54 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:47:54 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:47:54 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:47:55 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:47:55 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:47:55 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@207b8649 after already scoped org.hibernate.internal.SessionFactoryImpl@207b8649
+2019-08-19 11:47:55 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:47:55 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    604600 nanoseconds spent acquiring 1 JDBC connections;
+    382500 nanoseconds spent releasing 1 JDBC connections;
+    11596500 nanoseconds spent preparing 2 JDBC statements;
+    1537900 nanoseconds spent executing 1 JDBC statements;
+    16584100 nanoseconds spent executing 1 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    37062600 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:49:14 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:49:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:49:15 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:49:15 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:49:15 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-19 11:49:15 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:49:15 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:49:15 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:49:15 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-19 11:49:15 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:49:15 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2b4c1d96
+2019-08-19 11:49:15 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:49:15 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@146587a2
+2019-08-19 11:49:16 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:49:16 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@611f8234 after already scoped org.hibernate.internal.SessionFactoryImpl@611f8234
+2019-08-19 11:49:16 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:49:16 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    26900 nanoseconds spent acquiring 1 JDBC connections;
+    28300 nanoseconds spent releasing 1 JDBC connections;
+    38836100 nanoseconds spent preparing 1 JDBC statements;
+    3174600 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5064300 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    46600 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:49:29 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:49:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:49:29 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:49:30 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:49:30 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:49:30 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:49:30 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:49:30 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:49:30 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:49:30 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:49:30 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@183e8023 after already scoped org.hibernate.internal.SessionFactoryImpl@183e8023
+2019-08-19 11:49:31 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:49:31 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    565500 nanoseconds spent acquiring 1 JDBC connections;
+    468800 nanoseconds spent releasing 1 JDBC connections;
+    11707100 nanoseconds spent preparing 1 JDBC statements;
+    1147600 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    43000 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-19 11:50:16 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-19 11:50:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-19 11:50:16 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-19 11:50:16 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-19 11:50:16 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/esl]
+2019-08-19 11:50:16 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-19 11:50:16 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-19 11:50:16 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-19 11:50:17 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-08-19 11:50:17 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-19 11:50:17 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@183e8023 after already scoped org.hibernate.internal.SessionFactoryImpl@183e8023
+2019-08-19 11:50:17 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-19 11:50:17 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    534000 nanoseconds spent acquiring 1 JDBC connections;
+    300800 nanoseconds spent releasing 1 JDBC connections;
+    11566100 nanoseconds spent preparing 1 JDBC statements;
+    1640900 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5063900 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    68100 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-08-29 16:36:26 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:36:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:36:27 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:36:27 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:36:27 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:36:27 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:36:27 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:36:27 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:36:28 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:36:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:36:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:36:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:36:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:36:28 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:36:28 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 16:36:29 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 16:36:59 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:36:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:36:59 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:36:59 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:36:59 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:36:59 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:36:59 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:36:59 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:37:00 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:37:00 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:37:00 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:37:00 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:37:00 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:37:00 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:37:00 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 16:37:01 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 16:37:12 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:37:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:37:12 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:37:12 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:37:12 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:37:12 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:37:12 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:37:12 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:37:13 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:37:13 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:37:13 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:37:13 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:37:13 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:37:13 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:37:13 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 16:37:14 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 16:37:20 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:37:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:37:20 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:37:20 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:37:20 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:37:20 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:37:20 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:37:20 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:37:21 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:37:21 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:37:21 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:37:21 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:37:21 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:37:21 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:37:21 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 16:37:21 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 16:37:35 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:37:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:37:35 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:37:35 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:37:35 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:37:35 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:37:35 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:37:35 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:37:36 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:37:36 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@7e75bf2d
+2019-08-29 16:37:36 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@7e75bf2d
+2019-08-29 16:37:36 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@73044cdf
+2019-08-29 16:37:36 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@73044cdf
+2019-08-29 16:37:36 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:37:36 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@14982a82 after already scoped org.hibernate.internal.SessionFactoryImpl@14982a82
+2019-08-29 16:37:37 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 16:38:27 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:38:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:38:27 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:38:27 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:38:27 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:38:27 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:38:27 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:38:27 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:38:28 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:38:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:38:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:38:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:38:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:38:28 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:38:28 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 16:38:28 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 16:38:42 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:38:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:38:42 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:38:43 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:38:43 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:38:43 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:38:43 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:38:43 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:38:43 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:38:43 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:38:43 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:38:43 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:38:43 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:38:43 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:38:44 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 16:38:44 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 16:40:27 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:40:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:40:27 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:40:27 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:40:27 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:40:27 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:40:27 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:40:27 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:40:28 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:40:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:40:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:40:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:40:28 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:40:28 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:40:28 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 16:40:29 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 16:40:36 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 16:40:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 16:40:36 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 16:40:36 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 16:40:36 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 16:40:36 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 16:40:36 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 16:40:36 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 16:40:37 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 16:40:37 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:40:37 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 16:40:37 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:40:37 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 16:40:37 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 16:40:37 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 16:40:38 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:01:30 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:01:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:01:30 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:01:30 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:01:30 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:01:30 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:01:30 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:01:30 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:01:31 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:01:31 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:01:31 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:01:31 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:01:31 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:01:31 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:01:31 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:01:31 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:03:07 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:03:07 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:03:07 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:03:07 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:03:07 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:03:07 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:03:07 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:03:07 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:03:08 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:03:08 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@7e75bf2d
+2019-08-29 17:03:08 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@7e75bf2d
+2019-08-29 17:03:08 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@73044cdf
+2019-08-29 17:03:08 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@73044cdf
+2019-08-29 17:03:08 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:03:08 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@14982a82 after already scoped org.hibernate.internal.SessionFactoryImpl@14982a82
+2019-08-29 17:03:08 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:06:17 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:06:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:06:17 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:06:17 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:06:18 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:06:18 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:06:18 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:06:18 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:06:18 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:06:18 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:06:18 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:06:18 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:06:18 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:06:18 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:06:18 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:06:19 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:06:33 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:06:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:06:33 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:06:33 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:06:34 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:06:34 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:06:34 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:06:34 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:06:34 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:06:34 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:06:34 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:06:34 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:06:34 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:06:34 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:06:34 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:06:35 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:06:41 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:06:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:06:41 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:06:41 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:06:41 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:06:41 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:06:41 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:06:41 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:06:42 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:06:42 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:06:42 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:06:42 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:06:42 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:06:42 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:06:42 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:06:42 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:07:05 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:07:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:07:06 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:07:06 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:07:06 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:07:06 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:07:06 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:07:06 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:07:06 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:07:07 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:07:07 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:07:07 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:07:07 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:07:07 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:07:07 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:07:07 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:08:54 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:08:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:08:54 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:08:54 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:08:54 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:08:54 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:08:54 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:08:54 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:08:55 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:08:55 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:08:55 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:08:55 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:08:55 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:08:55 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:08:55 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:08:56 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:09:39 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:09:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:09:39 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:09:39 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:09:39 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:09:39 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:09:39 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:09:39 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:09:40 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:09:40 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:09:40 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:09:40 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:09:40 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:09:40 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:09:40 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:09:40 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:09:56 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:09:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:09:57 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:09:57 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:09:57 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:09:57 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:09:57 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:09:57 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:09:57 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:09:58 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@15bc339
+2019-08-29 17:09:58 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@15bc339
+2019-08-29 17:09:58 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@205b132e
+2019-08-29 17:09:58 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@205b132e
+2019-08-29 17:09:58 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:09:58 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@472a11ae after already scoped org.hibernate.internal.SessionFactoryImpl@472a11ae
+2019-08-29 17:09:58 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:11:52 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:11:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:11:52 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:11:52 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:11:52 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:11:52 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:11:52 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:11:52 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:11:53 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:11:53 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:11:53 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:11:53 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:11:53 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:11:53 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:11:53 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:11:54 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:13:37 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:13:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:13:37 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:13:37 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:13:37 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:13:37 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:13:37 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:13:37 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:13:38 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:13:38 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:13:38 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:13:38 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:13:38 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:13:38 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:13:38 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:13:38 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:14:56 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:14:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:14:57 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:14:57 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:14:57 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:14:57 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:14:57 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:14:57 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:14:57 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:14:57 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:14:57 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:14:57 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:14:57 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:14:58 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:14:58 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:14:58 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:20:45 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:20:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:20:46 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:20:46 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:20:46 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:20:46 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:20:46 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:20:46 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:20:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:20:46 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:20:46 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:20:46 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:20:46 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:20:47 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:20:47 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:20:47 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:21:23 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:21:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:21:23 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:21:24 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:21:24 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:21:24 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:21:24 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:21:24 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:21:24 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:21:24 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:21:24 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:21:24 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:21:24 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:21:24 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:21:24 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:21:25 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-29 17:22:02 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-29 17:22:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-29 17:22:03 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-29 17:22:03 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-29 17:22:03 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-29 17:22:03 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-29 17:22:03 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-29 17:22:03 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-29 17:22:03 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-29 17:22:03 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:22:03 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-29 17:22:03 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:22:03 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-29 17:22:04 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-29 17:22:04 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-29 17:22:04 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-30 08:20:30 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-30 08:20:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-30 08:20:31 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-30 08:20:31 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-30 08:20:31 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-30 08:20:31 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-30 08:20:31 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-30 08:20:31 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-30 08:20:32 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-30 08:20:33 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:20:33 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:20:33 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:20:33 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:20:33 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-30 08:20:33 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-30 08:20:34 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-30 08:23:03 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-30 08:23:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-30 08:23:04 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-30 08:23:04 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-30 08:23:04 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-30 08:23:04 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-30 08:23:04 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-30 08:23:04 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-30 08:23:04 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-30 08:23:05 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:23:05 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:23:05 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:23:05 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:23:05 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-30 08:23:05 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-30 08:23:05 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-30 08:23:45 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-30 08:23:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-30 08:23:45 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-30 08:23:45 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-30 08:23:46 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-30 08:23:46 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-30 08:23:46 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-30 08:23:46 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-30 08:23:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-30 08:23:46 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:23:46 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:23:46 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:23:46 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:23:46 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-30 08:23:46 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-30 08:23:47 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-30 08:24:35 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-30 08:24:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-30 08:24:36 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-30 08:24:36 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-30 08:24:36 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-30 08:24:36 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-30 08:24:36 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-30 08:24:36 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-30 08:24:36 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-30 08:24:36 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:24:36 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:24:36 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:24:36 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:24:37 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-30 08:24:37 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-30 08:24:37 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-30 08:25:43 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-30 08:25:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-30 08:25:43 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-30 08:25:44 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-30 08:25:44 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-30 08:25:44 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-30 08:25:44 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-30 08:25:44 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-30 08:25:44 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-30 08:25:44 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:25:44 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:25:44 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:25:44 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:25:44 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-30 08:25:45 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-30 08:25:45 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-30 08:27:37 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-30 08:27:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-30 08:27:38 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-30 08:27:38 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-30 08:27:38 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-30 08:27:38 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-30 08:27:38 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-30 08:27:38 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-30 08:27:38 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-30 08:27:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:27:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:27:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:27:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:27:39 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-30 08:27:39 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-30 08:27:39 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-30 08:27:50 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2019-08-30 08:27:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-30 08:27:50 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-30 08:27:51 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-30 08:27:51 INFO  pooling:129 - HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@//localhost:1521/orcl]
+2019-08-30 08:27:51 INFO  pooling:138 - HHH10001001: Connection properties: {user=esl, password=****, autocommit=false, release_mode=after_transaction}
+2019-08-30 08:27:51 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-30 08:27:51 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 100 (min=1)
+2019-08-30 08:27:51 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-30 08:27:51 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:27:51 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@79179359
+2019-08-30 08:27:51 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:27:51 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6a55299e
+2019-08-30 08:27:51 WARN  deprecation:606 - HHH90000023: Encountered use of deprecated Connection handling settings [hibernate.connection.acquisition_mode]or [hibernate.connection.release_mode]; use [hibernate.connection.handling_mode] instead
+2019-08-30 08:27:51 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f80fafe after already scoped org.hibernate.internal.SessionFactoryImpl@6f80fafe
+2019-08-30 08:27:52 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory

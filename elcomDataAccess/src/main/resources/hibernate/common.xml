@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<sql-query name="insertRating">
+	 	<![CDATA[
+	 		 INSERT INTO rating (job_id, user_id, note, rating) VALUES (:job_id, :user_id, :note, :rating)
+	 	 ]]>
+	</sql-query>
+	
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <sql-query name="findProceduresByJob">
+        <![CDATA[ SELECT proc.id, proc.user_interview as userInterview, proc.job_id as jobId, 
+                        proc.name, proc.type, proc.created_at as createdAt, u.email as email, 
+                        u.full_name as fullName, proc.stt, proc.total FROM procedures proc LEFT JOIN user u 
+                        ON proc.user_interview = u.id WHERE proc.job_id = :jobId ORDER BY proc.stt ASC
+        ]]>
+    </sql-query>
+</hibernate-mapping>
